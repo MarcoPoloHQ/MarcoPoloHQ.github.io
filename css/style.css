@@ -102,6 +102,14 @@ img{
     width: 237px;
 }
 
+.language{
+  color:#ffffff;
+}
+
+.language:hover{
+  color: #ffffff;
+}
+
 .leyend{
     padding: 90px 28px 0px;
 }
@@ -328,6 +336,10 @@ form .in-put{
 @media (min-width: 320px) and (max-width: 700px) {
         .header {
             height: 1000px;
+        }
+
+        .language h4 {
+          padding-top: 20px;
         }
 
         .leyend h1 {
